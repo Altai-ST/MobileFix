@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .forms{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .sel{
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        .inputs{
+            width: 280px;
+            padding: 10px;
+        }
+        .cost{
+            font-size: 20px;
+        }
+        button{
+            width: 200px;
+            margin:30px 50px;
+            padding: 10px 0;
+            border-radius: 5px;
+            background: rgb(63,94,251);
+            background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+            border:none;
+        }
+    }
+}

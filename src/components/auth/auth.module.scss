@@ -1,0 +1,47 @@
+.container{
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    h1{
+        margin-bottom: 15%;
+        margin-top: 70px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .auth{
+        background-color: #fff;
+        width: 240px;
+        border: 2px solid #FFFFFF;
+        padding: 10px 0;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+    .authClick{
+        background-color: skyblue;
+        width: 238px;
+        border: 2px solid #FFFFFF;
+        padding: 9px 0;
+        margin: 9px 0 13px;
+        border-radius: 10px;
+    }
+    .reg{
+        background-color: #fff;
+        border: 2px solid #FFFFFF;
+        width: 240px;
+        padding: 10px 0;
+        margin: 10px 0 265px;
+        border-radius: 10px;
+    }
+    .regClick{
+        background-color: skyblue;
+        width: 238px;
+        border: 2px solid #FFFFFF;
+        padding: 9px 0;
+        margin: 9px 0 280px;
+        border-radius: 10px;
+    }
+}

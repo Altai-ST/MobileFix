@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    .firstBlock{
+        width: 100%;
+        .img1{
+            position: relative;
+        }
+        .texth1{
+            position: absolute;
+            top: 300px;
+            right: 0;
+            left: 900px;
+            max-width: 500px;
+            font-size: 18px;
+        }
+    }
+}

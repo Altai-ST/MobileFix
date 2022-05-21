@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    .firstBlock{
+        width: 100%;
+        .img1{
+            position: relative;
+        }
+        .texth1{
+            position: absolute;
+            top: 300px;
+            right: 0;
+            left: 900px;
+            max-width: 500px;
+            font-size: 18px;
+        }
+    }
+    .secondBlock{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .card{
+            width: 20%;
+            max-height: 400px;
+            overflow: hidden;
+            text-align: center;
+            margin: 0 20px 0 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border: 2px solid gray;
+            border-radius: 10px;
+            position: relative;
+            padding-bottom: 40px;
+            color: black;
+            text-decoration: none;
+            h4{
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+            .visImg{
+                opacity: 1;
+                transform: translateY(0);
+                transition: transform 1s, opacity 1s;
+            }
+            .unVisImg{
+                opacity: 0;
+                transform: translateY(100px);
+                transition: transform 1s, opacity 1s;
+            }
+            .visBtn{
+                opacity: 0;
+                transform: translateY(-50px);
+                transition: transform 1s, opacity 1s;
+                position: absolute;
+                top: 300px;
+                left: 100px;
+            }
+            .unVisBtn{
+                opacity: 1;
+                transform: translateY(0px);
+                top: 300px;
+                left: 100px;
+                transition: transform 1s, opacity 1s;
+                position: absolute;
+            }
+            .contentText{
+                opacity: 0;
+                transform: translateY(-50px);
+                transition: transform 1s, opacity 1s;
+                position: absolute;
+                top: 80px;
+                left: 45px;
+                width: 200px;
+            }
+            .contentTextVis{
+                opacity: 1;
+                transform: translateY(0px);
+                top: 80px;
+                left: 45px;
+                width: 200px;
+                transition: transform 1s, opacity 1s;
+                position: absolute;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    
+    .btnBlock{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .btnSave{
+        width: 150px;
+        padding: 12px 0;
+        border-radius: 5px;
+        background: rgb(63,94,251);
+        background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        border:none;
+    }
+}
